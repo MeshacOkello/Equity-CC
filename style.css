@@ -4,6 +4,7 @@ body {
     min-height: 100vh; /* Set minimum height to 100% of the viewport height */
 }
 
+
 .main {
     flex: 1; /* Allow the main content to take up remaining space */
 }
@@ -77,5 +78,11 @@ body {
         position: static;
         float: none;
         width: auto;
+    }
+    .main {
+        margin-top: 6rem;
+    }
+    .navbar-brand{
+        font-size: 15px
     }
 }
